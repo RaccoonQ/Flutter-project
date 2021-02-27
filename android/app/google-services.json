@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "604381506496",
+    "firebase_url": "https://yaonology-app.firebaseio.com",
+    "project_id": "yaonology-app",
+    "storage_bucket": "yaonology-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604381506496:android:95d5388b12f539d3717625",
+        "android_client_info": {
+          "package_name": "com.yaonology.ios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604381506496-u48ff2vdv52ufjd19pam1v2kquk16qfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA44zsihXiU7DL4YjLomSAh4vGj2coocYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604381506496-pps13gdjbovii61kl8oc0ko6mrpgnkaj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604381506496-dkdn51ghlv03fof3bt2ao8sd6fb2nemg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yaonology.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

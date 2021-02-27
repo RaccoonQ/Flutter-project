@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /customers/{uid} {
+      allow read: if request.auth.uid == uid;
+
+      match /checkout_sessions/{id} {
+        allow read, write: if request.auth.uid == uid;
+      }
+      match /subscriptions/{id} {
+        allow read: if request.auth.uid == uid;
+      }
+    }
+		match /invoices/{id} {
+      allow write: if false;
+
+    match /products/{id} {
+      allow read: if true;
+
+      match /prices/{id} {
+        allow read: if true;
+        }
+      }
+    }
+  }
+}
